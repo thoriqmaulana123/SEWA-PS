@@ -1,0 +1,547 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fContainer{
+    display:flex;
+    width: 100%;
+    height:20px ;
+    background-color: white; 
+    position: fixed;
+    top: 0%;
+    z-index: 10;
+    
+    
+}
+.kontak{
+    background-color:rgb(61, 143, 243);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.kontak:hover{
+    color: rgb(255, 255, 255) !important;
+}
+
+.wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 25px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.Brand{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px 50px 15px ;
+    text-transform: capitalize;
+}
+
+
+.firstname{
+    color: black;
+    font-weight: 700;
+
+}
+
+.lastname{
+    color: rgb(61, 143, 243);
+    padding-bottom: 4px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation>li{
+    list-style-type: none;
+    padding: 15px ;
+}
+
+.navigation>li>a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigation>li>a:hover{
+    color:rgb(61, 143, 243);
+    transition: all .4s ease-in-out;
+}
+
+/*----------------Style for Awal-----------------*/
+.awal{
+    padding: 90px 0px 90px 0px;
+    display: flex;
+    justify-content: center; /* Memusatkan elemen-elemen anak secara horizontal */
+    align-items: center; /* Memusatkan elemen secara vertikal */
+
+}
+
+.Tentang{
+     margin-left:5em;
+     line-height: 1; 
+}
+.jag{
+    color: rgb(61, 143, 243);
+    font-size: 4em;
+    font-weight: 300;
+    text-align: left;  
+}
+
+.play{
+    color: #000000;
+    font-size: 5.6em;
+    font-weight: 700;
+    letter-spacing: -2px;
+    text-align: left;
+ }
+
+.deskripsi{
+    max-width: 35em;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal ;
+    color: #000000;
+    line-height: 1.6em; 
+    padding: 5% 0% 0% 0%;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.6em;
+}
+
+ .gambar {
+    margin-top: 5em; 
+    margin-right: 8em; 
+    height: 650px; 
+    width: 550px; 
+  }
+  
+.pesan{
+    background-color:rgb(61, 143, 243);
+    border-radius: 20px;
+    padding: 15px;
+    color: #000000;
+    transition: all .4s ease-in-out;
+    text-decoration: none;
+}
+
+.pesan:hover{
+    color: rgb(255, 255, 255) !important;
+}
+
+/*---------------------Style for tentang------------------*/
+.Tentang1{
+    background-image: url(joystick.jpg);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    clip-path: polygon(50% 0%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.Logo{
+    float: right;
+    margin-top:5px ;
+    padding-right: 18em;
+    height: 21em;
+    width: 21em;    
+}
+
+.Penjelasan{
+    color: white;
+    align-items: center;
+    padding: 10em 0% 0% 0% ;
+    padding-left: 12em;
+}
+.Tentang1 h1{
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.Tentang1 h4{
+    font-size: 25px;
+}
+
+.Tentang1 p{
+    font-size: 1rem;
+    width: 80%;
+    font-weight: 200;
+    max-width: 30em;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal ;
+    line-height: 1.6em;
+
+}
+
+/*-----------------------Style for Spesifikasi----------------*/
+.spesifikasi{
+    padding: 80px 0px 80px 0px;
+    display: flex;
+    justify-content: center; /* Memusatkan elemen-elemen anak secara horizontal */
+    align-items: center; /* Memusatkan elemen secara vertikal */
+    justify-content: space-around ;/*  Memberikan jarak antar elemen */
+}
+
+.container {
+
+    color: #000000;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+.container h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.spec-list {
+    list-style-type: none;
+    padding: 0; 
+    color: #8a817c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    width: 25em;
+}
+.spec-item {
+    list-style-type: disc;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.spec-item:last-child {
+    margin-bottom: 0;
+}
+.spec-item label {
+    font-weight: bold;
+}
+
+.Playstation{
+    /*margin-top: 5em;  Menjaga jarak dari atas */
+    margin-right: 8em; /* Menambah jarak dari atas */
+    height: 650px; /* Menentukan ketinggian gambar */
+    width: 550px; /* Menentukan lebar gambar */
+}
+
+  /*--------------Style for event----------------*/
+.NantikanEvent{
+        background-color: #ffffff;
+        background-image: url(joystick.jpg);
+        display: flex;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0px -414px;
+        padding: 80px 0px 80px 0px;   
+}        
+
+.Tentang2{
+    margin-left: 10em;
+}
+
+.Tentang2 h2{
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -2px;
+    width: 20em;
+    padding: 0%;
+}
+
+.Tentang2 p{
+    text-align: left;
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.6em;
+    color: #ffffff;
+    width: 30em;
+
+}
+
+.Info{
+    background-color:rgb(61, 143, 243);
+    border-radius: 20px;
+    padding: 15px;
+    color: #000000;
+    transition: all .4s ease-in-out;
+    text-decoration: none;
+}
+
+.Info:hover{
+    color: rgb(255, 255, 255) !important;
+}
+
+/*------------Style for Biaya Penyewaan-----------*/
+.Biaya-Penyewaan{
+    padding: 5% 0% 5% 0%;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Biaya-Penyewaan section{
+    width: 100%;
+    height: 100%;
+}
+
+.container1{
+    display: flex;
+    gap: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    justify-content: center;
+}
+
+.table-biaya {
+    background-color: #fff;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.list-header {
+    background-color:rgb(61, 143, 243);
+    color: #000000;
+    padding-top: 20px;
+}
+
+.list-header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.list-header h2 {
+    font-size: 2em;
+    color: #000000;
+    text-align: center;
+}
+
+.list-body {
+    padding: 20px;
+}
+
+.list-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-body li {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.Pesan-Button {
+    padding: 20px;
+ 
+}
+
+.Pesan-Button button {
+    background-color: rgb(61, 143, 243);
+    color: #000000;
+    border: none;
+    padding: 15px 40px ;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    
+}
+
+.Pesan-Button a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.Pesan-Button a:hover{
+    color: white !important;
+}
+.Pesan-Button button:hover{
+    color: white;
+}
+
+/*-------------style for list game------------------*/
+.background-list{
+    background-image: url(Background\ List.jpeg);
+    background-size: cover;
+    clip-path: polygon(50% 0, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+th, td {
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+}
+
+.container2 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 5% 0% 5% 0%;
+    color: #ffffff;
+    
+  }
+  
+  h1 {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .lists {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  
+  .list-column {
+    width: 45%;
+    line-height: 25px;
+  }
+  
+  .list-column ol {
+    padding-left: 20px;
+  }
+  
+  .note {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .note ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .note li {
+    margin-bottom: 10px;
+  }
+
+
+  /*---------------style for kenapa harus dengan jaghtor---------*/
+
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5% 0% 5% 0%;
+    color: black;
+    
+  }
+
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 2em;
+    color: #000000;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .features img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+  }
+  
+  .feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1em;
+    color: #666;
+  }
+
+  /*------------------style for pemesanan--------------------*/
+.pemesanan{
+    font-family: Arial, sans-serif;
+    background: url('joystick3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-container,h2{
+   
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+}
+.form-container input, .form-container select, .form-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.form-container button {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.form-container button:hover {
+    background:  rgb(61, 143, 243);
+}
